@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Exemplo</title>
+    <title>Delivery</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo-default-196x47.png" alt="" width="196" height="47"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand" href="index.php"><img src="images/logo-default-196x47.png" alt="" width="196" height="47"/></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -101,13 +101,11 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">About Us</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
                       </li>
                     </ul>
                   </div>
@@ -552,7 +550,7 @@
               <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
-                    <div class="footer-brand"><a href="index.html"><img src="images/logo-inverse-196x42.png" alt="" width="196" height="42"/></a></div>
+                    <div class="footer-brand"><a href="index.php"><img src="images/logo-inverse-196x42.png" alt="" width="196" height="42"/></a></div>
                     <p>Herber is an organic farm located in California. We offer healthy foods and products to our clients.</p>
                     <ul class="footer-contacts d-inline-block d-md-block">
                       <li>
