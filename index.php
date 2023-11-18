@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="page"><a class="section section-banner d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a>
+    <div class="page">
       <!-- Page Header-->
       <header class="section page-header">
         <!-- RD Navbar-->
@@ -37,7 +37,7 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.php"><img src="images/logo-default-196x47.png" alt="" width="196" height="47"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand" href="index.php"><img src="images/Delivery_logo.png" alt="" width="196" height="42"/></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -103,9 +103,9 @@
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">About Us</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.php">Sobre</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contatos.php">Contatos</a>
                       </li>
                     </ul>
                   </div>
@@ -541,7 +541,6 @@
           </div>
         </div>
       </section>
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
       <!-- Page Footer-->
       <footer class="section footer-variant-2 footer-modern context-dark section-top-image section-top-image-dark">
         <div class="footer-variant-2-content">
@@ -550,8 +549,8 @@
               <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
-                    <div class="footer-brand"><a href="index.php"><img src="images/logo-inverse-196x42.png" alt="" width="196" height="42"/></a></div>
-                    <p>Herber is an organic farm located in California. We offer healthy foods and products to our clients.</p>
+                    <div class="footer-brand"><a href="index.php"><img src="images/Delivery_logo_preto-removebg-preview.png" alt="" width="196" height="42"/></a></div>
+                    <p>Donec arcu turpis, iaculis a aliquet eu, tincidunt at turpis. Vestibulum rutrum nulla vitae nunc molestie, nec pretium leo ultrices.</p>
                     <ul class="footer-contacts d-inline-block d-md-block">
                       <li>
                         <div class="unit unit-spacing-xs">
@@ -655,9 +654,9 @@
           <div class="container">
             <!-- Rights-->
             <div class="group-sm group-sm-justify">
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Herber</span>. All rights reserved
+              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>CodigoQuatro</span>. All rights reserved
               </p>
-              <p class="rights">Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com/">Templatemonster</a></p>
+              <p class="rights">Design&nbsp;by&nbsp;<a href="">CodigoQuatro</a></p>
             </div>
           </div>
         </div>
