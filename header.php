@@ -101,11 +101,14 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">HOME</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.php">Sobre</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.php">SOBRE</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contatos.php">Contatos</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contatos.php">CONTATOS</a>
+                      </li>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="login.php">LOGIN</a>
                       </li>
                     </ul>
                   </div>
