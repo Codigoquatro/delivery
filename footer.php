@@ -62,7 +62,7 @@
               <div class="col-lg-3 col-xl-3">
                 <div class="oh-desktop">
                   <div class="inset-top-18 wow slideInLeft" data-wow-delay="0s">
-                    <h5>Gallery</h5>
+                    <h5>Alguns produtos</h5>
                     <div class="row row-10 gutters-10" data-lightgallery="group">
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->

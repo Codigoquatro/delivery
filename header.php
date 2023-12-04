@@ -4,6 +4,9 @@
     <title>Delivery</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="text/html;charset=utf-8">
+    <meta  name="description" content="Delivery CE, Delivery Maranguape,comprar lanches Maranguape">
+    <meta name="author" content="CodigoQuatro">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -18,12 +21,14 @@
     <![endif]-->
   </head>
   <body>
+    <!--
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container"><span></span><span></span><span></span><span></span>
         </div>
       </div>
     </div>
+    -->
     <div class="page">
       <!-- Page Header-->
       <header class="section page-header">
@@ -101,7 +106,7 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">HOME</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">HOME</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.php">SOBRE</a>
                       </li>
