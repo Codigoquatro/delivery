@@ -5,7 +5,7 @@
           <div class="container">
             <h2 class="breadcrumbs-custom-title">About Our Farm</h2>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li class="active">About Us</li>
             </ul>
           </div>
@@ -170,7 +170,7 @@
           <div class="parallax-content section-md bg-overlay-2-21">
             <div class="container">
               <div class="oh">
-                <h2 class="wow slideInUp" data-wow-delay="0s">What People Say</h2>
+                <h2 class="wow slideInUp" data-wow-delay="0s">Comentários</h2>
               </div>
               <!-- Owl Carousel-->
               <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">

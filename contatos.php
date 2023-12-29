@@ -53,44 +53,41 @@
       <section class="section section-md section-last bg-default text-md-left">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-6 section-map-small">
-              <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.business&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b4d4e1&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]">
-                <div class="google-map"></div>
-                <ul class="google-map-markers">
-                  <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
-                </ul>
-              </div>
-            </div>
             <div class="col-lg-6">
-              <h4 class="text-spacing-50">Contact Form</h4>
+              <div class="google-map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254788.95853760437!2d-38.68442830240415!3d-3.793298802077493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c3f464c783f%3A0x4661c60a0c6b37ca!2sFortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1703767720948!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                             
+              </div>
+            </div>  
+            <div class="col-lg-6">
+              <h4 class="text-spacing-50">Formulário de Contato</h4>
               <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="row row-14 gutters-14">
                   <div class="col-sm-6">
                     <div class="form-wrap">
                       <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-first-name">First Name</label>
+                      <label class="form-label" for="contact-first-name">Nome</label>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-last-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-last-name">Last Name</label>
+                      <input class="form-input" id="contact-last-tel" type="telefone" name="telefone">
+                      <label class="form-label" for="contact-last-tel">WhatsApp</label>
                     </div>
                   </div>
-                  <div class="col-12">
+                  <div class="col-sm-6">
                     <div class="form-wrap">
                       <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
                       <label class="form-label" for="contact-email">E-mail</label>
                     </div>
                   </div>
-                  <div class="col-12">
+                  <div class="col-sm-6">
                     <div class="form-wrap">
-                      <label class="form-label" for="contact-message">Message</label>
+                      <label class="form-label" for="contact-message">Messagem</label>
                       <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
-                <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
+                <button class="button button-primary button-pipaluk" type="submit">Enviar</button>
               </form>
             </div>
           </div>

@@ -7,7 +7,7 @@
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
                     <div class="footer-brand"><a href="index.php"><img src="images/Delivery_logo_preto-removebg-preview.png" alt="" width="196" height="42"/></a></div>
-                    <p>Donec arcu turpis, iaculis a aliquet eu, tincidunt at turpis. Vestibulum rutrum nulla vitae nunc molestie, nec pretium leo ultrices.</p>
+                    <p>Estamos há mais de 20 anos com nossos restaurantes,sempre buscando ofereçer o melhor para nossos clientes.</p>
                     <ul class="footer-contacts d-inline-block d-md-block">
                       <li>
                         <div class="unit unit-spacing-xs">
@@ -36,17 +36,17 @@
               <div class="col-sm-6 col-lg-4 col-xl-4">
                 <div class="oh-desktop">
                   <div class="inset-top-18 wow slideInDown" data-wow-delay="0s">
-                    <h5>Newsletter</h5>
-                    <p>Join our email newsletter for news and tips.</p>
+                    <h5>Cadastre-se</h5>
+                    <p>Inserir seu email abaixo para se cadastrar em nosso delivery.</p>
                     <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                       <div class="form-wrap">
                         <input class="form-input" id="subscribe-form-5-email" type="email" name="email" data-constraints="@Email @Required">
-                        <label class="form-label" for="subscribe-form-5-email">Enter Your E-mail</label>
+                        <label class="form-label" for="subscribe-form-5-email">Inserir seu email</label>
                       </div>
-                      <button class="button button-block button-white" type="submit">Subscribe</button>
+                      <button class="button button-block button-white" type="submit">Inscreva-se</button>
                     </form>
                     <div class="group-lg group-middle">
-                      <p class="text-white">Follow Us</p>
+                      <p class="text-white">Siga-nos</p>
                       <div>
                         <ul class="list-inline list-inline-sm footer-social-list-2">
                           <li><a class="icon fa fa-facebook" href="#"></a></li>
