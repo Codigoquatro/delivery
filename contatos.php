@@ -64,7 +64,7 @@
                 <div class="row row-14 gutters-14">
                   <div class="col-sm-6">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
+                      <input class="form-input" id="contact-first-name" type="text" name="nome" data-constraints="@Required">
                       <label class="form-label" for="contact-first-name">Nome</label>
                     </div>
                   </div>
@@ -83,7 +83,7 @@
                   <div class="col-sm-6">
                     <div class="form-wrap">
                       <label class="form-label" for="contact-message">Messagem</label>
-                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                      <textarea class="form-input" id="contact-message" name="mensagem" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
