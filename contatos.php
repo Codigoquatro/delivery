@@ -60,7 +60,7 @@
             </div>  
             <div class="col-lg-6">
               <h4 class="text-spacing-50">Formulário de Contato</h4>
-              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="enviar.php">
                 <div class="row row-14 gutters-14">
                   <div class="col-sm-6">
                     <div class="form-wrap">
