@@ -70,7 +70,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-wrap">
-                      <input class="form-input" id="telefone" type="telefone" name="telefone">
+                      <input class="form-input" id="contact-last-tel" type="telefone" name="telefone">
                       <label class="form-label" for="contact-last-tel">WhatsApp</label>
                     </div>
                   </div>
@@ -93,4 +93,4 @@
           </div>
         </div>
       </section>
-      <?php include_once("footer.php")?>     
+      <?php include_once("footer.php")?>
