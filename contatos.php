@@ -93,8 +93,4 @@
           </div>
         </div>
       </section>
-      <?php include_once("footer.php")?>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-
-      <script src="js/mascaras.js"></script>
+      <?php include_once("footer.php")?>     
