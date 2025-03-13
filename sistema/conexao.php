@@ -4,16 +4,20 @@
 date_default_timezone_set('America/Sao_Paulo');
 
 //dados conexão bd local
-$servidor = 'localhost';
-$banco = 'delivery';
-$usuario = 'root';
-$senha = '';
+//$servidor = 'localhost';
+//$banco = 'delivery';
+//$usuario = 'root';
+//$senha = '';
 
-
+//dados conexão hospedagem
+$servidor = '108.167.151.55';
+$banco = 'codig267_delivery';
+$usuario = 'codig267_delivery';
+$senha = 'Alves1974#';
 
 $url_sistema = "https://$_SERVER[HTTP_HOST]/";
 $url = explode("//", $url_sistema);
-if ($url[1] == 'localhost/') {
+if ($url[1] == 'codigoquatro.com.br/') {
 	$url_sistema = "http://$_SERVER[HTTP_HOST]/delivery/";
 }
 

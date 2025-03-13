@@ -9194,7 +9194,7 @@ textarea.custom-file-input.parsley-error:focus~.custom-file-label {
 .nav {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 0;
+    padding-right: 8px;
     margin-bottom: 0;
     list-style: none;
 }
@@ -17670,13 +17670,12 @@ pre {
 
 @media (max-width: 992px) {
     .responsive-logo .header-logo {
-        display: block;
-        margin: 0 auto;
-        left: 0;
+        display: block;       
+        left: -85px;
         right: 0;
         text-align: center;
         position: absolute;
-        top: 10px;
+        top: -35px;
     }
 }
 
@@ -22708,8 +22707,8 @@ html.fullscreen-button .app-content {
     display: flex;
     align-items: center;
     position: relative;
-    height: 2.5rem;
-    margin: 0 auto;
+    height: 9.5rem;
+    margin: -53px 10px;
     justify-content: center;
     text-align: center;
 }
@@ -57526,7 +57525,7 @@ button.bg-dark:focus {
 }
 
 .bg-primary {
-    background-color: var(--primary-bg-color) !important;
+    background-color: #ff0000 !important;
 }
 
 .bg-primary-gradient {
@@ -79651,7 +79650,7 @@ a.text-dark:focus {
 
 @media only screen and (max-width: 540px) {
     .logo_painel {
-        width: 25% !important
+        width: 28% !important
     }
 
 

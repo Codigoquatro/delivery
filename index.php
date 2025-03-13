@@ -169,7 +169,7 @@ if ($id_mesa == "" and $sessão_balcao == "") {
         <small>
           <?php
           if ($id_mesa == "") {
-            echo $nome_sistema;
+            //echo $nome_sistema;
           } else {
             echo $nome_mesa;
           }
@@ -185,7 +185,7 @@ if ($id_mesa == "" and $sessão_balcao == "") {
     </div>
   </nav>
 
-  <div id="slider" style="margin-top: 50px;" class="ocultar-banner-web">
+  <div id="slider" style="margin-top: 117px;" class="ocultar-banner-web">
     <?php if ($id_mesa == "") { ?>
 
       <?php
