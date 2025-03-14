@@ -124,34 +124,27 @@ if($pag_proxima == $num_paginas){
 
 
 echo <<<HTML
-					<li class="swipeout">
-					<div class="swiper-wrapper">		
+					<li class="swipeout">	
+					<div class="swiper-wrapper">
+			
 					<div class="swiper-slide swipeout-content item-content">
+
 					<div class="post_entry"  onclick="mostrar('{$nome_cliente}','{$telefone_cliente}','{$rua_cliente}','{$numero_cliente}', '{$complemento_cliente}','{$bairro_cliente}','{$cidade_cliente}','{$n_pedido}','{$pago}','{$valorF}','{$total_pagoF}','{$trocoF}','{$tipo_pgto}','{$hora_pedido}','{$obs_item}')" title="Mostrar Dados">
-					
+
 					<div class="post_details">
 					<div class="post_category textos_list">Pedido N° {$n_pedido}</div>				
 					<p style="font-size:12px">{$nome_cliente} {$telefone_cliente}</p>
 					<p class="subtitulo_list">{$rua_cliente}, {$numero_cliente} {$complemento_cliente} {$bairro_cliente} {$cidade_cliente}</p>
+					<div id="opcoes_lista" class="swiper-slide swipeout-actions-right">
+						<a target="_blank" style="width: 17%; background: #1d8c32" href="http://api.whatsapp.com/send?1=pt_BR&phone={$tel_whatsF}" title="Whatsapp"><img src="images/icons/white/whatsapp.png" alt="" title="" /></a>
+						<a target="_blank" style="width: 17%; background: #00bdff" href="http://maps.google.com/?saddr=Current%20Location&daddr={$rua_cliente},%20{$numero_cliente}%20{$bairro_cliente}%20{$cep_cliente}" class="action1"><img src="images/icons/white/map.png" alt="" title="Editar" /></a>
+						<a onclick="confirmarEntrega('{$id}')" style="width: 17%; background: #000bbb" href="#"><img src="images/icons/white/square-check.png" alt="" title="Confirmar Entrega" /></a>								
 					</div>
-					<div class="post_swipe"><img src="images/swipe_more.png" alt="" title="" /></div>
+					</div>
+
+					<div class="post_swipe"><img src="images/swipe_more.png" alt="" title="" />
 					</div>
 					</div>
-					<div class="swiper-slide swipeout-actions-right">
-
-
-					<a target="_blank" style="width: 17%; background: #1d8c32" href="http://api.whatsapp.com/send?1=pt_BR&phone={$tel_whatsF}" title="Whatsapp"><img src="images/icons/white/whatsapp.png" alt="" title="" /></a>
-
-
-					<a target="_blank" style="width: 17%; background: #00bdff" href="http://maps.google.com/?saddr=Current%20Location&daddr={$rua_cliente},%20{$numero_cliente}%20{$bairro_cliente}%20{$cep_cliente}" class="action1"><img src="images/icons/white/map.png" alt="" title="Editar" /></a>
-
-
-					<a onclick="confirmarEntrega('{$id}')" style="width: 17%; background: #000bbb" href="#"><img src="images/icons/white/square-check.png" alt="" title="Confirmar Entrega" /></a>
-
-
-					
-					
-					
 					</div>
 					</div>
 					</li>	

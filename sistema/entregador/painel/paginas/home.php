@@ -10,26 +10,26 @@ $data_final_mes = $ano_atual . '-' . $mes_atual . '-31';
 
 
 //TOTAL ENTREGAS ABERTAS
-$query = $pdo->query("SELECT * from entregadores WHERE entregador = $id_usuario and status = 'Entrega'");
+$query = $pdo->query("SELECT * from vendas WHERE entregador = $id_usuario and status = 'Entrega'");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_entregas_abertas = @count($res);
 
 
 //TOTAL ENTREGAS HOJE
-$query = $pdo->query("SELECT * from entregadores WHERE entregador = $id_usuario and status = 'Finalizado' and data = curDate()");
+$query = $pdo->query("SELECT * from vendas WHERE entregador = $id_usuario and status = 'Finalizado' and data = curDate()");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_entregas_hoje = @count($res);
 
 
 //TOTAL ESTE MES
-$query = $pdo->query("SELECT * from entregadores WHERE entregador = $id_usuario and status = 'Finalizado' and data >= $data_inicio_mes and data <= '$data_final_mes'");
+$query = $pdo->query("SELECT * from vendas WHERE entregador = $id_usuario and status = 'Finalizado' and data >= $data_inicio_mes and data <= '$data_final_mes'");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_entregas_mes = @count($res);
 
 
 
 //TOTAL ENTREGAS
-$query = $pdo->query("SELECT * from entregadores WHERE entregador = $id_usuario and status = 'Finalizado' ");
+$query = $pdo->query("SELECT * from vendas WHERE entregador = $id_usuario and status = 'Finalizado' ");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_entregas = @count($res);
 
@@ -68,7 +68,7 @@ $tarefas_concluidas_hoje = @count($res);
 
 
         <div class="swiper-slide" style="margin-top:50px; background-image:url(images/slide2.png); ">
-            <div class="slider_trans" style="">
+            <div class="slider_trans">
 
                 <div class="swiper-container-team" style="margin-top: 5px">
                     <div class="swiper-wrapper">
@@ -103,7 +103,7 @@ $tarefas_concluidas_hoje = @count($res);
                         <div class="swiper-slide"
                             style="margin-right:3px; margin-top:3px; width:46%; padding:5px; box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.1); border-radius:4px; background: #f5f5f5;">
 
-                            <a href="entregador" style="  ">
+                            <a href="entregador">
 
                                 <img style="float:right;" src="images/cards/motoboy.png" width="42px" />
                                 <span style="float:left; color:#363636; margin-left:0px; font-size: 9px">ENTREGAS ESTE MÊS</span><br>

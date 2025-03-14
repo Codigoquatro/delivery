@@ -1,5 +1,5 @@
 <?php 
-$pag = 'entregadores';
+$pag = 'vendas';
 $itens_pag = 10;
 
 @session_start();
@@ -31,7 +31,7 @@ $pag_proxima = $pagina + 1;
 
 
 //totalizar páginas
-$query2 = $pdo->query("SELECT * from $pag where id_entregador = '$id_usuario' or pedido like '%$buscar%' order by id desc");
+$query2 = $pdo->query("SELECT * from $pag where entregador = '$id_usuario' or pedido like '%$buscar%' order by id desc");
 $res2 = $query2->fetchAll(PDO::FETCH_ASSOC);
 $linhas2 = @count($res2);
 
@@ -84,7 +84,7 @@ for ($i = 0; $i < $linhas2; $i++) {
 
 		<ul class="posts2" id="listar">
 			<?php 
-			$query = $pdo->query("SELECT * from $pag where id_entregador = '$id_usuario' and status = 'Finalizado' order by id desc LIMIT $limite, $itens_pag");
+			$query = $pdo->query("SELECT * from $pag where entregador = '$id_usuario' and status = 'Finalizado' order by id desc LIMIT $limite, $itens_pag");
 			$res = $query->fetchAll(PDO::FETCH_ASSOC);
 			$linhas = @count($res);
 			if($linhas > 0){

@@ -63,7 +63,10 @@ width: 100%;
 overflow: hidden;
 font-weight:300;
 }
-
+#opcoes_lista{
+  margin-top: -3px;
+  margin-left: -121px;
+}
 .clear{ 
 clear:both; 
 display:block;
@@ -277,6 +280,8 @@ padding:8px 0 0 0;
 font-size:34px;
 line-height:70px;
 font-weight:900;
+margin-top: 0px;
+margin-left: 0px;
 }
 .logo_text a{
 color:#ffffff;
@@ -2084,7 +2089,8 @@ background-color:#0be0af;
 
 .swipeout .swiper-wrapper{
 	width:100%;
-	height:auto;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 .swipeout .swiper-slide{
 	width:100%;
@@ -2954,6 +2960,8 @@ margin:0;
 .logo_text{ 
 font-size:22px;
 line-height:50px;
+margin-top: -33px;
+margin-left: 0px;
 }
 .logo_image a img{ 
 max-width:50%;
