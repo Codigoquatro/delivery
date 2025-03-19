@@ -191,12 +191,19 @@ HTML;
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#tabela').DataTable({
-			"ordering": false,
-			"stateSave": true
+			"ordering": true,
+			"stateSave": true,
+			"drawCallback": function() {
+				$('#tabela thead th').css({
+					"background-color": "#000000", // Cor de fundo do cabeçalho
+					"color": "#fff" // Cor do texto do cabeçalho
+				});
+			}
 		});
 		$('#tabela_filter label input').focus();
 	});
 </script>
+
 
 
 
